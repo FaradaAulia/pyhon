@@ -1,4 +1,3 @@
-
 while True:
     print("Masukkan Pilihan Anda")
     x = int(input())
@@ -22,6 +21,15 @@ while True:
         print("Hasilnya adalah", hasil)
 
     elif x == 3:
+        print("Ini adalah Perkalian")
+        print("Masukkan Bilangan Pertama")
+        bilangan1 = int(input())
+        print("Masukkan Bilangan Kedua")
+        bilangan2 = int(input())
+        hasil = bilangan1 * bilangan2
+        print("Hasilnya adalah", hasil)
+
+    elif x == 4:
         print("Ini adalah penentu bilangan ganjil atau genap")
         print("Masukkan Angka Anda")
         angka = int(input())
